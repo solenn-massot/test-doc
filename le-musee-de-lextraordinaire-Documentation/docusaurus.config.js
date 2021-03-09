@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Le musée de l\'extraordinaire',
   tagline: 'Découvrez l\'art au travers d\'anecdotes !',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com/solenn-massot/',
+  baseUrl: '/test-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'solenn-massot', // Usually your GitHub org/user name.
+  projectName: 'test-doc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Le musée de l\'extraordinaire',
@@ -26,7 +26,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Le Musée de l'extraordinaire, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Documentation API - Le Musée de l'extraordinaire, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -37,7 +37,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/solenn-massot/test-doc',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
