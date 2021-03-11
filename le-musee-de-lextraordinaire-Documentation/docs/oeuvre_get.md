@@ -2,7 +2,7 @@
 id: Get oeuvre
 hide_title: \[GET\] Oeuvre/\{id_oeuvre\}
 ---
-## \[GET\] Oeuvre/\{id_oeuvre\}
+## \[GET\] oeuvres/\{id_oeuvre\}
 
 ### Description
 
@@ -23,9 +23,9 @@ Si aucun id n'est indiqué, toutes les oeuvres seront retournées.
 | id      | int |  
 | titre    |   string    |
 | date    |   int    |
-| id_mouvement     |   int    |
-| id_artiste     |   int    |
-| anecdote     |   string    |
 | img     |   string    |
+| anecdote     |   string    |
+| mouvement     |   string    |
+| artiste     |   string    |
 
 

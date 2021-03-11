@@ -1,8 +1,8 @@
 ﻿---
 id: Get oeuvre par mouvement
-hide_title: \[GET\] Oeuvre/mouvement\{id_mouvement\}
+hide_title: \[GET\] Oeuvre/findByMouvement/\{id_mouvement\}
 ---
-## \[GET\] Oeuvre/mouvement\{id_mouvement\}
+## \[GET\] oeuvre/findByMouvement/\{id_mouvement\}
 
 ### Description
 
@@ -22,9 +22,9 @@ Récupérer toutes les oeuvres d'un mouvement.
 | id      | int |  
 | titre    |   string    |
 | date    |   int    |
-| id_mouvement     |   int    |
-| id_artiste     |   int    |
-| anecdote     |   string    |
 | img     |   string    |
+| anecdote     |   string    |
+| mouvement     |   string    |
+| artiste     |   string    |
 
 

@@ -1,8 +1,8 @@
 ﻿---
 id: Delete utilisateur
-hide_title: \[DELETE\] Utilisateur/\{id_utilisateur\}
+hide_title: \[DELETE\] utilisateur/
 ---
-## \[DELETE\] Utilisateur/\{id_utilisateur\}
+## \[DELETE\] utilisateur/
 
 ### Description
 
@@ -14,7 +14,7 @@ Cette fonction permet de supprimer uniquement son propre compte.
 
 | Paramètres       |Type      ||
 | ------------- | :-----------: | -----: |
-| id      | int | obligatoire |
+| token (header)      | string | obligatoire |
 
 
 ### Réponse
@@ -22,5 +22,6 @@ Cette fonction permet de supprimer uniquement son propre compte.
 | Paramètres       |Type      |
 | ------------- | :-----------: |
 | status      | bool |  
+| error     |   string    |
 | message     |   string    |
 

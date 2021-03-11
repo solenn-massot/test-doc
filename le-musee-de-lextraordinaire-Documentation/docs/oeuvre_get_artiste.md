@@ -1,8 +1,8 @@
 ﻿---
 id: Get oeuvre par artiste
-hide_title: \[GET\] Oeuvre/artiste\{id_artiste\}
+hide_title: \[GET\] oeuvre/findByArtiste/\{id_artiste\}
 ---
-## \[GET\] Oeuvre/artiste\{id_artiste\}
+## \[GET\] oeuvre/findByArtiste/\{id_artiste\}
 
 ### Description
 
@@ -22,9 +22,9 @@ Récupérer toutes les oeuvres d'un artiste.
 | id      | int |  
 | titre    |   string    |
 | date    |   int    |
-| id_mouvement     |   int    |
-| id_artiste     |   int    |
-| anecdote     |   string    |
 | img     |   string    |
+| anecdote     |   string    |
+| mouvement     |   string    |
+| artiste     |   string    |
 
 

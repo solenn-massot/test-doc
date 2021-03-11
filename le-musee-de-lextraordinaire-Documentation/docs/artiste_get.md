@@ -1,18 +1,19 @@
 ﻿---
 id: Get artiste
-hide_title: \[GET\] Artiste/\{id_artiste\}
+hide_title: \[GET\] artiste/\{id_artiste\}
 ---
-## \[GET\] Artiste/\{id_artiste\}
+## \[GET\] artiste/\{id_artiste\}
 
 ### Description
 
-Récupérer les informations d'un artiste.
+Récupérer les informations d'un artiste. 
+Si aucun id n'est indiqué, tous les artistes seront retournés.
 
 ### Requête
 
 | Paramètres       |Type      ||
 | ------------- | :-----------: | -----: |
-| id_artiste      | int | obligatoire |
+| id_artiste      | int | facultatif |
 
 
 ### Réponse
@@ -21,6 +22,6 @@ Récupérer les informations d'un artiste.
 | ------------- | :-----------: |
 | id      | int |  
 | nom    |   string    |
-| id_mouvement     |   int    |
-| anecdote     |   string    |
 | img     |   string    |
+| biographie    |   string    |
+| id_mouvement     |   int    |
