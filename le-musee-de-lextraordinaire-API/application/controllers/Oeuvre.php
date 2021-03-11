@@ -1,6 +1,6 @@
 <?php
 
-class Oeuvre extends CI_Controller{
+final class Oeuvre extends CI_Controller{
 
 	public function __construct()
 	{

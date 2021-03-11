@@ -1,8 +1,8 @@
 ﻿---
 id: Get utilisateur
-hide_title: \[GET\] Utilisateur/\{id_utilisateur\}
+hide_title: \[GET\] Utilisateur/
 ---
-## \[GET\] Utilisateur/\{id_utilisateur\}
+## \[GET\] Utilisateur/
 
 ### Description
 
@@ -14,7 +14,7 @@ Cette fonction permet de récupérer uniquement ses propres informations.
 
 | Paramètres       |Type      ||
 | ------------- | :-----------: | -----: |
-| id      | int | obligatoire |
+| token (header)      | string | obligatoire |
 
 
 ### Réponse
@@ -24,5 +24,7 @@ Cette fonction permet de récupérer uniquement ses propres informations.
 | id      | int |  
 | identifiant      |   string    |
 | email |   string    | 
+| role      | int |  
+
 
 

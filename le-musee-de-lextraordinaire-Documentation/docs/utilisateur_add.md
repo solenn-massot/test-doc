@@ -1,8 +1,8 @@
 ﻿---
 id: Add utilisateur
-hide_title: \[POST\] Utilisateur/
+hide_title: \[POST\] utilisateur/
 ---
-## \[POST\] Utilisateur/
+## \[POST\] utilisateur/
 
 ### Description
 
@@ -16,10 +16,12 @@ Créer un compte utilisateur.
 | email      | string | obligatoire |
 | mdp      | string | obligatoire |
 
+
 ### Réponse
 
 | Paramètres       |Type      |
 | ------------- | :-----------: |
 | status      | bool |  
+| error     |   string    |
 | message     |   string    |
 

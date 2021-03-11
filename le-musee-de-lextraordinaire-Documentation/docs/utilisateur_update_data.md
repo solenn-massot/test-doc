@@ -1,12 +1,12 @@
 ﻿---
-id: Update utilisateur
-hide_title: \[POST\] Utilisateur/
+id: Update data utilisateur
+hide_title: \[POST\] utilisateur/updateData
 ---
-## \[POST\] Utilisateur/
+## \[POST\] utilisateur/updateData
 
 ### Description
 
-Modifier les informations d'un compte utilisateur.
+Modifier les informations d'un compte utilisateur (sauf mot de passe).
 Cette fonction permet de modifier uniquement les informations de l'utilisateur connecté.
 
 ### Requête
@@ -16,11 +16,15 @@ Cette fonction permet de modifier uniquement les informations de l'utilisateur c
 | identifiant      | string | obligatoire |
 | email      | string | obligatoire |
 | mdp      | string | obligatoire |
+| token (header)      | string | obligatoire |
+
 
 ### Réponse
 
 | Paramètres       |Type      |
 | ------------- | :-----------: |
-| status      | bool |  
+| status      | bool |
+| data      | array |
+| error     |   string    |
 | message     |   string    |
 

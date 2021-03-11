@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+//use \application\models\Utilisateur_model;
+require APPPATH . '/controllers/Oeuvre.php';
+
 
 class Welcome extends CI_Controller {
 
@@ -22,5 +25,23 @@ class Welcome extends CI_Controller {
 	{
 		echo json_encode(["Test"=>"Welcome Page"]);
 
+		$this->load->library('unit_test');
+
+		$test = 1 + 1;
+
+		$expected_result = 2;
+
+		$test_name = 'Adds one plus one';
+
+		$this->unit->run($test, $expected_result, $test_name);
+
+		$test=Oeuvre::findById("1");
+
+		//$user =new Utilisateur();
+		//$test=$user::connectUser("coucou@laplateforme.io", "coucou");
+
+		$this->unit->run($test, 'is_object');
+
+		echo $this->unit->report();
 	}
 }
